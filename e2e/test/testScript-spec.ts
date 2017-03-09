@@ -14,7 +14,7 @@ describe('Dashboard Tests -', function () {
         gpage = new googlePage();
     });
 
-    function tileOptions() {
+    function Options() {
         return [
             //reading data from json file
             { option:  searchText["1"]},
@@ -22,7 +22,7 @@ describe('Dashboard Tests -', function () {
        
         ];
     }
-    using(tileOptions, function (data) {
+    using(Options, function (data) {
         it('should load Dashboard', function () {
             // opening browser and seraching in google
             gpage.goToGoogle();
