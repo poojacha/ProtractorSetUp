@@ -1,0 +1,17 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+   "rootDir": ".",
+    "outDir": "bin",
+    "target": "ES5",
+     "typeRoots": [
+       "../node_modules/@types"
+     ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "declaration": true,
+        "emitDecoratorMetadata": true
+    },
+    "files": [
+        "./waitTool.ts"
+    ]
+}
